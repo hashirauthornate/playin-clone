@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Card from "../components/Card";
+import EarlyAccess from "../components/EarlyAccess";
 import Ecosystem from "../components/Ecosystem";
 import Features from "../components/Features";
 import Governance from "../components/Governance";
@@ -22,6 +23,7 @@ export default function Home() {
       <PlexSection />
       <Governance />
       <Token />
+      <EarlyAccess />
     </div>
   );
 }

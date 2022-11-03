@@ -27,6 +27,9 @@ const Center = styled.div`
 const BottmWrapper = styled.div`
   padding-top: 90px;
 `;
+const Flex = styled.div`
+  display: flex;
+`;
 type Props = {};
 
 const Footer = (props: Props) => {
@@ -53,10 +56,10 @@ const Footer = (props: Props) => {
             <H6>Privacy Policy</H6>
           </Col>
           <Col lg={5}>
-            <Stack direction="horizontal" gap={2}>
-              <FaEnvelope size={25} color="4BECA3" />
+            <Flex>
+              <FaEnvelope size={20} color="4BECA3" />
               <H6>hello@playintechnologies.com</H6>
-            </Stack>
+            </Flex>
           </Col>
           <Col>
             <H6>PlayIn, Inc. 2013 - 2022.</H6>

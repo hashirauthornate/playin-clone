@@ -23,3 +23,15 @@ export const StartButton = styled.div`
     border-color: ${(props) => props.theme.colors.main};
   }
 `;
+export const SubmitButton = styled.div`
+  width: 230px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "Nekst-Light", sans-serif;
+  background-color: ${(props) => props.theme.colors.main};
+  font-weight: 600;
+  font-size: 25px;
+`;

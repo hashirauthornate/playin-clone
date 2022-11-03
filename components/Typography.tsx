@@ -33,7 +33,7 @@ export const H5 = styled.h5`
 `;
 
 export const H6 = styled.h6`
-  font-size: 12px;
+  font-size: 20px;
   font-family: "Nekst-Light", sans-serif;
   color: ${(props) => props.theme.colors.grey};
 `;
