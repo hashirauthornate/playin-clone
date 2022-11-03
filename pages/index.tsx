@@ -5,6 +5,7 @@ import Features from "../components/Features";
 import Governance from "../components/Governance";
 import HeroSection from "../components/HeroSection";
 import PlexSection from "../components/PlexSection";
+import Token from "../components/Token";
 
 import Footer from "../Layout/Footer";
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Ecosystem />
       <PlexSection />
       <Governance />
+      <Token />
     </div>
   );
 }
